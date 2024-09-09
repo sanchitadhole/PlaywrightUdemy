@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 
-test.only("Browser Context Playwright test", async ({ page }) => {
+test("Browser Context Playwright test", async ({ page }) => {
   await page.goto("https://rahulshettyacademy.com/client");
   // // await page.locator(".text-reset").click();
   // await page.locator("#firstName").fill("Sanchita");
